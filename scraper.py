@@ -1,6 +1,6 @@
-from autoscraper import AutoScraper
 
 def prepare_scraper(url, wanted_list):
+    from autoscraper import AutoScraper
     scraper = AutoScraper()
     result = scraper.build(url, wanted_list)
     return scraper
