@@ -18,5 +18,5 @@ if __name__ == '__main__':
     scraper = prepare_scraper(url_train, wanted_list)
     logging.debug('Starting "scraping"')
     scraping(url1, scraper)
-    logging.debug('Script finished')
+    logging.debug('Script finished well')
 
