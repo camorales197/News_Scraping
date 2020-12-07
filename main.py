@@ -23,5 +23,3 @@ if __name__ == '__main__':
     result = scraping(url1, scraper)
     print(result)
     logging.debug('Script finished well')
-
-x=4
